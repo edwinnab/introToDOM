@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+    <link rel="stylesheet" href="index.css">
+<body>  
+    <header>
+        <h2>Welcome to Class!!</h2>
+    </header>
+    <!-- main -->
+    <main class="container">
+        <form id="form">
+            <label for="fullName">FullName</label>
+            <input type="text" id="name"  name="fullName" required>
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required minlength="8">
+            <br><br>
+
+            <input type="submit" id="submit" name="submit">
+        </form>
+    </main>
+    <br><br>
+    <form class="feedback">
+        <label for="note">Add FeedBack</label>
+        <input type="text" id="note" name="note">
+        <button type="submit">Add</button>
+    </form>
+    <div class="section">
+        <h2>Feedback Responses </h2>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
